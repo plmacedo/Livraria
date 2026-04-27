@@ -28,8 +28,6 @@
             <tr>
                 <td>${editora.id}</td>
                 <td>${editora.nome}</td>
-                    <%-- Cuidado com a nomenclatura da variável aqui. No seu Editora.java
-                         está getCNPJ() ou getCnpj()? Se for getCNPJ, use ${editora.CNPJ} --%>
                 <td>${editora.CNPJ}</td>
 
                 <td><a href="/${requestScope.contextPath}/editoras/edicao?id=${editora.id}">Edição</a>
